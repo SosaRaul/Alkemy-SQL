@@ -1,7 +1,7 @@
 CREATE TABLE CURSO (codigoCurso INT NOT NULL,
-                    nombre VARCHAR NOT NULL,
-                    descripcion VARCHAR,
-                    turno VARCHAR NOT NULL,
+                    nombre VARCHAR(100) NOT NULL,
+                    descripcion VARCHAR(100),
+                    turno VARCHAR(50) NOT NULL,
                     PRIMARY KEY(codigoCurso)
                     );
 
