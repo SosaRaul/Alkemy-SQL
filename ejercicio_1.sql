@@ -1,3 +1,5 @@
+-- EJERCICIO 1 - SQL I
+
 CREATE TABLE CURSO (codigoCurso INT NOT NULL,
                     nombre VARCHAR(100) NOT NULL,
                     descripcion VARCHAR(100),
